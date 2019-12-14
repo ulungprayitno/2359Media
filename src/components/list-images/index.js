@@ -72,7 +72,7 @@ const ListImages = ({ data }) => {
             <Card isFavorite={favorites.includes(item.id)}>
               <Image key={item.id} src={item.images.original.url} />
               <FavoriteButton
-                src="http://pngimg.com/uploads/love/love_PNG85.png"
+                src="fav-icon.png"
                 isFavorite={favorites.includes(item.id)}
                 onClick={favorites.includes(item.id) ? onRemoveFavoriteClick(item.id) : onFavoriteClick(item)}
               />
