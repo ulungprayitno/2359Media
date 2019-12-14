@@ -8,4 +8,4 @@
 4. Run `npm start` to see the example app at `http://localhost:3000/`
 
 ## Demo Example
-`https://test2359media.herokuapp.com/`
+`http://test2359media.herokuapp.com/`
